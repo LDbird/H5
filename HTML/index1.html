@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐相册</title>
+    <link rel="stylesheet" href="../css/index1.css">
+    <script src="../js/zepto.js"></script>
+    <!--<script>-->
+        <!--;(function () {-->
+            <!--function computedREM (){-->
+                <!--let winW = document.documentElement.clientWidth || document.body.clientWidth;-->
+                <!--let desW = 640;-->
+                <!--if(winW >= desW){-->
+                    <!--(document.documentElement || document.body).style.fontSize = 100 + 'px';-->
+                    <!--return;-->
+                <!--}-->
+                <!--// 计算当前设备下的font-size-->
+                <!--(document.documentElement || document.body).style.fontSize = winW/desW*100 + 'px';-->
+            <!--}-->
+            <!--computedREM();-->
+
+            <!--window.addEventListener('resize',computedREM); // 监听事件：当窗口大小改变时，重新计算当前设备下的font-size-->
+        <!--})();-->
+    <!--</script>-->
+</head>
+<body>
+<main class="main_box">
+    <header class="header_box" id="header_box">
+        <img src="../img/music.svg" alt="">
+    </header>
+
+    <div class="border">  </div>
+
+        <section class="content_box1 hide">
+            <div class="top_pic">
+                <img src="../img/1-top-pic.webp" alt="">
+            </div>
+            <div class="have_border">
+                <div class="center_pic">
+                    <img src="../img/1-2.webp" alt="">
+                </div>
+                <div class="footer_pic">
+                    <img src="../img/1-footer-pic.webp" alt="">
+                </div>
+                <div class="line_pic">
+                    <img src="../img/1-line.webp" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="tree_footer_right">
+                    <img src="../img/1-tree-footer-right.webp" alt="">
+                </div>
+                <div class="tree_footer_left">
+                    <img src="../img/1-tree-footer-left.webp" alt="">
+                </div>
+                <div class="hand_pic">
+                    <img src="../img/1-head.webp" alt="">
+                </div>
+                <div class="tree_center_left">
+                    <img src="../img/1-tree-center-left.webp" alt="">
+                </div>
+                <div class="tree_center_right">
+                    <img src="../img/1-center-right.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="content_box2 hide">
+            <div class="pic_box">
+                <div class="top_pic">
+                    <img src="../img/2-top-pic.webp" alt="">
+                </div>
+                <div class="center_pic">
+                    <span>课堂上</span>
+                    <span>老师说写信写给</span>
+                    <span>未来的自己握着笔</span>
+                    <span>想了千言万语</span>
+                    <span>最后只剩心虚</span>
+                </div>
+                <div class="footer_pic">
+                    <img src="../img/2-footer-pic.webp" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="tree_top_pic">
+                    <img src="../img/2-tree-top-pic.webp" alt="">
+                </div>
+                <div class="tree_center_pic">
+                    <img src="../img/2-tree-center-pic.webp" alt="">
+                </div>
+                <div class="tree_footer_pic">
+                    <img src="../img/2-tree-footer-pic.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="content_box3 hide">
+            <div class="pic_box">
+                <div class="top_pic">
+                    <img src="../img/3-top-pic.webp" alt="">
+                </div>
+                <div class="center_pic">
+                    <span>写不出 骄傲的字句</span>
+                    <span>写不出 满怀的的期待</span>
+                    <span>写满了 很多疑惑和问题</span>
+                    <span>写满了 年少和轻狂</span>
+                </div>
+                <div class="footer_pic">
+                    <img src="../img/3-footer-left.webp" alt="">
+                    <img src="../img/3-footer-right-rightj.webp" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="tree_top_left">
+                    <img src="../img/3-tree-top.webp" alt="">
+                </div>
+                <div class="tree_footer_right">
+                    <img src="../img/3-tree-footer.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="content_box4 hide">
+            <div class="pic_box">
+                <div class="top_pic">
+                    <img src="../img/4-top-pic.webp" alt="">
+                </div>
+                <div class="footer_pic">
+                    <div class="footer_pic_left">
+                        <img src="../img/4-left-pic.webp" alt="">
+                    </div>
+                    <div class="footer_pic_right">
+                        <span>坐下吧</span>
+                        <span>一起写封信</span>
+                        <span>写给</span>
+                        <span>未来的自己</span>
+                        <span>望穿了</span>
+                        <span>多少</span>
+                        <span>春来冬去</span>
+                        <span>跋涉光年</span>
+                        <span>的距离</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tree_top_left">
+                <img src="../img/4-tree-top.webp" alt="">
+            </div>
+            <div class="tree_center_right">
+                <img src="../img/4-tree-center.webp" alt="">
+            </div>
+            <div class="tree_footer_left">
+                <img src="../img/4-tree-footer.webp" alt="">
+            </div>
+        </section>
+        <section class="content_box5 ">
+            <div class="pic_box">
+                <div class="top_pic">
+                    <img src="../img/5-top-pic.webp" alt="">
+                </div>
+                <div class="center_pic">
+                    <img src="../img/5-center-pic.webp" alt="">
+                </div>
+                <div class="footer_pic">
+                    <img src="../img/5-footer-pic.webp" alt="">
+                </div>
+                <div class="word_right">
+                    <span>做着什么事情</span>
+                    <span>未来你会</span>
+                </div>
+                <div class="word_left">
+                    <span>怎样的歌曲</span>
+                    <span>听着</span>
+                </div>
+            </div>
+            <div class="tree_top_left">
+                <img src="../img/5-tree-top.webp" alt="">
+            </div>
+            <div class="tree_center_right">
+                <img src="../img/5-tree-center.webp" alt="">
+            </div>
+            <div class="tree_footer_left">
+                <img src="../img/5-tree-footer.webp" alt="">
+            </div>
+            <div class="fly">
+                <img src="../img/6-fly.webp" alt="">
+            </div>
+
+        </section>
+        <section class="content_box6 hide">
+            <div class="pic_box">
+                <div class="top_pic">
+                    <div class="top_pic_left">
+                        <img src="../img/6-top-left.webp" alt="">
+                    </div>
+                    <div class="top_pic_right">
+                        <img src="../img/6-top-right’.webp" alt="">
+                    </div>
+                </div>
+                <div class="center_pic">
+                        <img src="../img/6-center.webp" alt="">
+                    </div>
+                <div class="footer_pic">
+                    <div class="footer_pic_left">
+                        <img src="../img/6-footer-left.webp" alt="">
+                    </div>
+                    <div class="footer_pic_right">
+                        <img src="../img/6-footer-right.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="tree_top_left">
+                <img src="../img/6-tree-top.webp" alt="">
+            </div>
+            <div class="tree_center_right">
+                <img src="../img/6-tree-center.webp" alt="">
+            </div>
+            <div class="tree_footer_left">
+                <img src="../img/6-tree-footer.webp" alt="">
+            </div>
+        </section>
+
+
+    <!--<audio id="audio" src="http://res1.eqh5.com/o_1d94nq0km89kqfiovfjfi0e9.mp3" loop autoplay preload=""></audio>-->
+</main>
+<script src="../js/index.js"></script>
+</body>
+</html>
